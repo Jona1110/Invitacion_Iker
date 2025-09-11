@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación Iker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>🎉 Te invito a mi fiesta 🎉</h1>
+    <h2>Iker</h2>
+    <h3>9 Años</h3>
+    <h4>¡Será una Pool Party!</h4>
+    <h4>🕷️ Temática Spiderman 🕷️</h4>
+  </header>
+
+  <!-- Contador regresivo -->
+  <section class="countdown">
+    <h2>⏳ Falta para la fiesta:</h2>
+    <div id="timer">
+      <span id="days">00</span>d :
+      <span id="hours">00</span>h :
+      <span id="minutes">00</span>m :
+      <span id="seconds">00</span>s
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="map-container">
+    <h2>📍 Ubicación</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14937.22728588891!2d-103.39133735!3d20.65969855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18f10c37a15%3A0xdeb98e65ce42928!2sTerraza!5e0!3m2!1ses!2smx!4v1693221111111" 
+      allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Confirmación -->
+  <section>
+    <a href="https://wa.me/5213322961969?text=Hola%20Iker!%20Confirmo%20mi%20asistencia%20a%20tu%20fiesta%20🎉" 
+       class="btn" target="_blank">
+      Confirmar Asistencia
+    </a>
+  </section>
+
+
+  <!-- Burbuja animadas -->
+  <div class="bubbles"></div>
+
+  <!-- Spiderman animado -->
+  <div class="spiderman"></div>
+
+  <!-- Música -->
+  <audio id="music" autoplay loop>
+    <source src="assets/Music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
